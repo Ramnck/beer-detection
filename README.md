@@ -80,7 +80,7 @@ If you use this work, please cite:
 @misc{pivo-segmentation,
   author = {Ramnck},
   title = {pivo-segmentation},
-  year = {2024},
+  year = {2025},
   howpublished = {\url{https://github.com/Ramnck/pivo-segmentation}}
 }
 ```
