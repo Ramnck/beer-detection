@@ -1,0 +1,6 @@
+path: yolo  # Root directory of the dataset
+train: images/train  # Relative path to training images
+val: images/val  # Relative path to validation images
+test: images/test
+names:
+  0: beer  # Replace 'object' with your actual class name
