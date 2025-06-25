@@ -7,7 +7,7 @@ import urllib.request
 # 1) Declare dependencies so torch.hub knows what to install
 dependencies = ["torch", "ultralytics"]
 # 2) URL to your .pt file (e.g. on GitHub Releases or S3)
-MODEL_URL = "https://github.com/Ramnck/pivo-segmentation/raw/refs/heads/master/weights/model.pt"
+MODEL_URL = "https://github.com/Ramnck/pivo-segmentation/raw/master/weights/model.pt"
 
 def download(url: str, dst: Path):
     dst.parent.mkdir(parents=True, exist_ok=True)
