@@ -77,11 +77,11 @@ print(result)
 If you use this work, please cite:
 
 ```
-@misc{pivo-segmentation,
+@misc{pivo-detection,
   author = {Ramnck},
-  title = {pivo-segmentation},
+  title = {pivo-detection},
   year = {2025},
-  howpublished = {\url{https://github.com/Ramnck/pivo-segmentation}}
+  howpublished = {\url{https://github.com/Ramnck/pivo-detection}}
 }
 ```
 
