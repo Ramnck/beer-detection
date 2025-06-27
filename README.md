@@ -1,6 +1,6 @@
-# pivo-segmentation
+# pivo-detection
 
-Segmentation model for detecting pivo (beer) objects in images.
+Detection model for detecting pivo (beer) objects in images.
 Easily load and use the pretrained model with PyTorch Hub.
 
 ---
@@ -23,7 +23,7 @@ You can load the model directly with PyTorch Hub:
 import torch
 
 model = torch.hub.load(
-    'Ramnck/pivo-segmentation',
+    'Ramnck/pivo-detection',
     'model',
     pretrained=True,  # Download weights automatically
 )
@@ -39,7 +39,7 @@ results = model(img)
 ## Input Format
 
 * **Image**: Accepts PIL.Image, numpy array (H, W, 3), or torch tensor (C, H, W)
-* **Output**: Dict or object containing segmentation masks, bounding boxes, and confidence scores.
+* **Output**: Dict or object containing bounding boxes and confidence scores.
 
 ---
 
@@ -47,7 +47,7 @@ results = model(img)
 
 * Model architecture: \[YOLO/UNet/other — fill here]
 * Training dataset: \[describe dataset briefly]
-* Primary task: Instance or semantic segmentation for "pivo" objects
+* Primary task: detection for "pivo" (beer) objects
 
 ---
 
