@@ -1,6 +1,6 @@
-# pivo-detection
+# beer-detection
 
-Detection model for detecting pivo (beer) objects in images.
+Detection model for detecting beer in images.
 Easily load and use the pretrained model with PyTorch Hub.
 
 ---
@@ -23,7 +23,7 @@ You can load the model directly with PyTorch Hub:
 import torch
 
 model = torch.hub.load(
-    'Ramnck/pivo-detection',
+    'Ramnck/beer-detection',
     'model',
     pretrained=True,  # Download weights automatically
 )
@@ -47,7 +47,7 @@ results = model(img)
 
 * Model architecture: \[YOLO/UNet/other — fill here]
 * Training dataset: \[describe dataset briefly]
-* Primary task: detection for "pivo" (beer) objects
+* Primary task: detection for beer
 
 ---
 
@@ -77,11 +77,11 @@ print(result)
 If you use this work, please cite:
 
 ```
-@misc{pivo-detection,
+@misc{beer-detection,
   author = {Ramnck},
-  title = {pivo-detection},
+  title = {beer-detection},
   year = {2025},
-  howpublished = {\url{https://github.com/Ramnck/pivo-detection}}
+  howpublished = {\url{https://github.com/Ramnck/beer-detection}}
 }
 ```
 
